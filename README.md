@@ -3,11 +3,10 @@
 ## About
 
 Scalagmite is a project that aims to ease the writing of scalable parallel
-or distributed applications by using high-level abstractions. In a
-Scalagmite application, everything is asynchronous: threads,
+or distributed applications by using high-level abstractions. Threads,
 semaphores, etc. are never handled explicitly. Instead, agents are defined
 which handle different message types and interact with other agents by
-sending them messages.
+asynchronously sending them messages.
 
 ## Example
 
